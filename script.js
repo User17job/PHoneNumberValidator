@@ -11,7 +11,8 @@ if(inputV){
     console.log("1- ok");
     ValidarNumero();
 }else{
-    alert("Please provide a phone number");
+      Swal.fire("Please provide a phone number");
+
 }
 }   
 function ValidarNumero(){
